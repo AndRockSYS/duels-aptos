@@ -1,0 +1,11 @@
+[package]
+name = "duels"
+version = "2.0.0"
+
+[addresses]
+androcksys_framework = "0x4f63cf697293c80856e8f72b132e6d313ee1c2ece20861cb168d0c9e6e1ef745"
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-core.git"
+rev = "main"
+subdir = "aptos-move/framework/aptos-framework"
